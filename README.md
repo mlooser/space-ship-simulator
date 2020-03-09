@@ -1,6 +1,6 @@
 # Space Ship Simulatior
 Test project for 11 Bits
-2th May 2017
+*2th May 2017*
 
 
 # VS solution structure  
