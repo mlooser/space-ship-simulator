@@ -1,0 +1,22 @@
+# Ship Configuration
+SpaceShip.MaxSpeed=5
+SpaceShip.Acceleration=5
+SpaceShip.Deacceleration=2
+SpaceShip.ShootingCooldown=0.5
+SpaceShip.ProjectileSpeed=30
+SpaceShip.ProjectileRange=20
+#roll will follow input. Quality param
+SpaceShip.RollFollowInputSpeed=2
+SpaceShip.MaxRoll=40
+SpaceShip.XMovementLimit=14
+
+# Meteors Configuration
+Meteor.Speed=5
+#how meny meteors per second
+Meteor.InitialSpawningRate=1
+#how much spawning rate will increase for each destroyed meteor
+Meteor.SpawningRateIncrease=0.2
+#where meteor will fall - x distance from starting x
+Meteor.TargetRandomizationRange=5
+#degrees
+Meteor.RotationRandomizationRange=20

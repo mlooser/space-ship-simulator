@@ -1,0 +1,2 @@
+FragmentShader=Resources/Shaders/StandardShading.fragmentshader
+VertexShader=Resources/Shaders/StandardShading.vertexshader

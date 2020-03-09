@@ -1,0 +1,465 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\mathematics">
+      <UniqueIdentifier>{0e008b96-1b51-48d5-a93f-10989935e1cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\mathematics">
+      <UniqueIdentifier>{69a03574-d8ac-4d53-8bd1-d6afe73f8707}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\body">
+      <UniqueIdentifier>{82a0289e-4b28-4e67-ac08-5c06d0297dc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\body">
+      <UniqueIdentifier>{5352b449-d9b7-452a-8045-1226073db41a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\collision">
+      <UniqueIdentifier>{a1062b6b-42de-4974-8bc2-a845ed3ea6ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\collision">
+      <UniqueIdentifier>{7f6eaf48-08cd-4560-ae51-4be9385d8498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\collision\broadphase">
+      <UniqueIdentifier>{40cbcaa0-8ff6-4c3c-9321-aeb76ff4dbb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\collision\broadphase">
+      <UniqueIdentifier>{46c947fe-75b6-4622-bc94-d6ef037d0454}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\collision\narrowphase">
+      <UniqueIdentifier>{3b301c53-ab09-4294-9994-eec4433cc796}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\collision\narrowphase">
+      <UniqueIdentifier>{2450ec5e-79aa-4d2c-9963-80458656d800}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\collision\shapes">
+      <UniqueIdentifier>{61ff6312-f998-4005-b843-b72666d0d5aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\collision\shapes">
+      <UniqueIdentifier>{9bd5b3a4-9034-4161-8cb5-a6eaaf9368ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\constraint">
+      <UniqueIdentifier>{a02a5647-bf48-40b2-9358-32aa9c7126b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\constraint">
+      <UniqueIdentifier>{f1971ce8-8d0f-4b9b-af01-648af15d6310}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\engine">
+      <UniqueIdentifier>{f6476e6c-faea-4dde-89c6-ae070c52d3cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\engine">
+      <UniqueIdentifier>{defbc7e3-1a57-41b9-b93b-929315d9f098}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\memory">
+      <UniqueIdentifier>{32e12716-1f8b-428f-9759-24a18f7a67c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\memory">
+      <UniqueIdentifier>{dcf8a630-36e1-4914-bf2e-aa126324ba61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\collision\narrowphase\EPA">
+      <UniqueIdentifier>{1a0fb019-f25f-452b-b9f9-2a698cdfafe1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\collision\narrowphase\EPA">
+      <UniqueIdentifier>{b859fdcb-47c8-4c97-a082-f93b937ba77e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\collision\narrowphase\GJK">
+      <UniqueIdentifier>{071f3b4e-e3be-48ed-8033-dce707794435}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\collision\narrowphase\GJK">
+      <UniqueIdentifier>{78dce3ec-c6f0-4c7c-818c-8fadca30d6c5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="reactphysics3d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mathematics\mathematics.h">
+      <Filter>Header Files\mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="mathematics\mathematics_functions.h">
+      <Filter>Header Files\mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="mathematics\Matrix2x2.h">
+      <Filter>Header Files\mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="mathematics\Matrix3x3.h">
+      <Filter>Header Files\mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="mathematics\Quaternion.h">
+      <Filter>Header Files\mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="mathematics\Transform.h">
+      <Filter>Header Files\mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="mathematics\Vector2.h">
+      <Filter>Header Files\mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="mathematics\Vector3.h">
+      <Filter>Header Files\mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="configuration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="decimal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="body\Body.h">
+      <Filter>Header Files\body</Filter>
+    </ClInclude>
+    <ClInclude Include="body\CollisionBody.h">
+      <Filter>Header Files\body</Filter>
+    </ClInclude>
+    <ClInclude Include="body\RigidBody.h">
+      <Filter>Header Files\body</Filter>
+    </ClInclude>
+    <ClInclude Include="collision\CollisionDetection.h">
+      <Filter>Header Files\collision</Filter>
+    </ClInclude>
+    <ClInclude Include="collision\CollisionShapeInfo.h">
+      <Filter>Header Files\collision</Filter>
+    </ClInclude>
+    <ClInclude Include="collision\ContactManifold.h">
+      <Filter>Header Files\collision</Filter>
+    </ClInclude>
+    <ClInclude Include="collision\ContactManifoldSet.h">
+      <Filter>Header Files\collision</Filter>
+    </ClInclude>
+    <ClInclude Include="collision\ProxyShape.h">
+      <Filter>Header Files\collision</Filter>
+    </ClInclude>
+    <ClInclude Include="collision\RaycastInfo.h">
+      <Filter>Header Files\collision</Filter>
+    </ClInclude>
+    <ClInclude Include="collision\TriangleMesh.h">
+      <Filter>Header Files\collision</Filter>
+    </ClInclude>
+    <ClInclude Include="collision\TriangleVertexArray.h">
+      <Filter>Header Files\collision</Filter>
+    </ClInclude>
+    <ClInclude Include="collision\broadphase\BroadPhaseAlgorithm.h">
+      <Filter>Header Files\collision\broadphase</Filter>
+    </ClInclude>
+    <ClInclude Include="collision\broadphase\DynamicAABBTree.h">
+      <Filter>Header Files\collision\broadphase</Filter>
+    </ClInclude>
+    <ClInclude Include="collision\narrowphase\CollisionDispatch.h">
+      <Filter>Header Files\collision\narrowphase</Filter>
+    </ClInclude>
+    <ClInclude Include="collision\narrowphase\ConcaveVsConvexAlgorithm.h">
+      <Filter>Header Files\collision\narrowphase</Filter>
+    </ClInclude>
+    <ClInclude Include="collision\narrowphase\DefaultCollisionDispatch.h">
+      <Filter>Header Files\collision\narrowphase</Filter>
+    </ClInclude>
+    <ClInclude Include="collision\narrowphase\NarrowPhaseAlgorithm.h">
+      <Filter>Header Files\collision\narrowphase</Filter>
+    </ClInclude>
+    <ClInclude Include="collision\narrowphase\SphereVsSphereAlgorithm.h">
+      <Filter>Header Files\collision\narrowphase</Filter>
+    </ClInclude>
+    <ClInclude Include="collision\shapes\AABB.h">
+      <Filter>Header Files\collision\shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="collision\shapes\BoxShape.h">
+      <Filter>Header Files\collision\shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="collision\shapes\CapsuleShape.h">
+      <Filter>Header Files\collision\shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="collision\shapes\CollisionShape.h">
+      <Filter>Header Files\collision\shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="collision\shapes\ConcaveMeshShape.h">
+      <Filter>Header Files\collision\shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="collision\shapes\ConcaveShape.h">
+      <Filter>Header Files\collision\shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="collision\shapes\ConeShape.h">
+      <Filter>Header Files\collision\shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="collision\shapes\ConvexMeshShape.h">
+      <Filter>Header Files\collision\shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="collision\shapes\ConvexShape.h">
+      <Filter>Header Files\collision\shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="collision\shapes\CylinderShape.h">
+      <Filter>Header Files\collision\shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="collision\shapes\HeightFieldShape.h">
+      <Filter>Header Files\collision\shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="collision\shapes\SphereShape.h">
+      <Filter>Header Files\collision\shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="collision\shapes\TriangleShape.h">
+      <Filter>Header Files\collision\shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="constraint\BallAndSocketJoint.h">
+      <Filter>Header Files\constraint</Filter>
+    </ClInclude>
+    <ClInclude Include="constraint\ContactPoint.h">
+      <Filter>Header Files\constraint</Filter>
+    </ClInclude>
+    <ClInclude Include="constraint\FixedJoint.h">
+      <Filter>Header Files\constraint</Filter>
+    </ClInclude>
+    <ClInclude Include="constraint\HingeJoint.h">
+      <Filter>Header Files\constraint</Filter>
+    </ClInclude>
+    <ClInclude Include="constraint\Joint.h">
+      <Filter>Header Files\constraint</Filter>
+    </ClInclude>
+    <ClInclude Include="constraint\SliderJoint.h">
+      <Filter>Header Files\constraint</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\CollisionWorld.h">
+      <Filter>Header Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\ConstraintSolver.h">
+      <Filter>Header Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\ContactSolver.h">
+      <Filter>Header Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\DynamicsWorld.h">
+      <Filter>Header Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\EventListener.h">
+      <Filter>Header Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\Impulse.h">
+      <Filter>Header Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\Island.h">
+      <Filter>Header Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\Material.h">
+      <Filter>Header Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\OverlappingPair.h">
+      <Filter>Header Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\Profiler.h">
+      <Filter>Header Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\Timer.h">
+      <Filter>Header Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="memory\MemoryAllocator.h">
+      <Filter>Header Files\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="memory\Stack.h">
+      <Filter>Header Files\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="collision\narrowphase\EPA\EdgeEPA.h">
+      <Filter>Header Files\collision\narrowphase\EPA</Filter>
+    </ClInclude>
+    <ClInclude Include="collision\narrowphase\EPA\epaalgorithm.h">
+      <Filter>Header Files\collision\narrowphase\EPA</Filter>
+    </ClInclude>
+    <ClInclude Include="collision\narrowphase\EPA\TriangleEPA.h">
+      <Filter>Header Files\collision\narrowphase\EPA</Filter>
+    </ClInclude>
+    <ClInclude Include="collision\narrowphase\EPA\TrianglesStore.h">
+      <Filter>Header Files\collision\narrowphase\EPA</Filter>
+    </ClInclude>
+    <ClInclude Include="collision\narrowphase\GJK\GJKAlgorithm.h">
+      <Filter>Header Files\collision\narrowphase\GJK</Filter>
+    </ClInclude>
+    <ClInclude Include="collision\narrowphase\GJK\simplex.h">
+      <Filter>Header Files\collision\narrowphase\GJK</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="reactphysics3d.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mathematics\mathematics_functions.cpp">
+      <Filter>Source Files\mathematics</Filter>
+    </ClCompile>
+    <ClCompile Include="mathematics\Matrix2x2.cpp">
+      <Filter>Source Files\mathematics</Filter>
+    </ClCompile>
+    <ClCompile Include="mathematics\Matrix3x3.cpp">
+      <Filter>Source Files\mathematics</Filter>
+    </ClCompile>
+    <ClCompile Include="mathematics\Quaternion.cpp">
+      <Filter>Source Files\mathematics</Filter>
+    </ClCompile>
+    <ClCompile Include="mathematics\Transform.cpp">
+      <Filter>Source Files\mathematics</Filter>
+    </ClCompile>
+    <ClCompile Include="mathematics\Vector2.cpp">
+      <Filter>Source Files\mathematics</Filter>
+    </ClCompile>
+    <ClCompile Include="mathematics\Vector3.cpp">
+      <Filter>Source Files\mathematics</Filter>
+    </ClCompile>
+    <ClCompile Include="body\Body.cpp">
+      <Filter>Source Files\body</Filter>
+    </ClCompile>
+    <ClCompile Include="body\CollisionBody.cpp">
+      <Filter>Source Files\body</Filter>
+    </ClCompile>
+    <ClCompile Include="body\RigidBody.cpp">
+      <Filter>Source Files\body</Filter>
+    </ClCompile>
+    <ClCompile Include="collision\CollisionDetection.cpp">
+      <Filter>Source Files\collision</Filter>
+    </ClCompile>
+    <ClCompile Include="collision\ContactManifold.cpp">
+      <Filter>Source Files\collision</Filter>
+    </ClCompile>
+    <ClCompile Include="collision\ContactManifoldSet.cpp">
+      <Filter>Source Files\collision</Filter>
+    </ClCompile>
+    <ClCompile Include="collision\ProxyShape.cpp">
+      <Filter>Source Files\collision</Filter>
+    </ClCompile>
+    <ClCompile Include="collision\RaycastInfo.cpp">
+      <Filter>Source Files\collision</Filter>
+    </ClCompile>
+    <ClCompile Include="collision\TriangleMesh.cpp">
+      <Filter>Source Files\collision</Filter>
+    </ClCompile>
+    <ClCompile Include="collision\TriangleVertexArray.cpp">
+      <Filter>Source Files\collision</Filter>
+    </ClCompile>
+    <ClCompile Include="collision\broadphase\BroadPhaseAlgorithm.cpp">
+      <Filter>Source Files\collision\broadphase</Filter>
+    </ClCompile>
+    <ClCompile Include="collision\broadphase\DynamicAABBTree.cpp">
+      <Filter>Source Files\collision\broadphase</Filter>
+    </ClCompile>
+    <ClCompile Include="collision\narrowphase\ConcaveVsConvexAlgorithm.cpp">
+      <Filter>Source Files\collision\narrowphase</Filter>
+    </ClCompile>
+    <ClCompile Include="collision\narrowphase\DefaultCollisionDispatch.cpp">
+      <Filter>Source Files\collision\narrowphase</Filter>
+    </ClCompile>
+    <ClCompile Include="collision\narrowphase\NarrowPhaseAlgorithm.cpp">
+      <Filter>Source Files\collision\narrowphase</Filter>
+    </ClCompile>
+    <ClCompile Include="collision\narrowphase\SphereVsSphereAlgorithm.cpp">
+      <Filter>Source Files\collision\narrowphase</Filter>
+    </ClCompile>
+    <ClCompile Include="collision\shapes\AABB.cpp">
+      <Filter>Source Files\collision\shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="collision\shapes\BoxShape.cpp">
+      <Filter>Source Files\collision\shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="collision\shapes\CapsuleShape.cpp">
+      <Filter>Source Files\collision\shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="collision\shapes\CollisionShape.cpp">
+      <Filter>Source Files\collision\shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="collision\shapes\ConcaveMeshShape.cpp">
+      <Filter>Source Files\collision\shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="collision\shapes\ConcaveShape.cpp">
+      <Filter>Source Files\collision\shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="collision\shapes\ConeShape.cpp">
+      <Filter>Source Files\collision\shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="collision\shapes\ConvexMeshShape.cpp">
+      <Filter>Source Files\collision\shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="collision\shapes\ConvexShape.cpp">
+      <Filter>Source Files\collision\shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="collision\shapes\CylinderShape.cpp">
+      <Filter>Source Files\collision\shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="collision\shapes\HeightFieldShape.cpp">
+      <Filter>Source Files\collision\shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="collision\shapes\SphereShape.cpp">
+      <Filter>Source Files\collision\shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="collision\shapes\TriangleShape.cpp">
+      <Filter>Source Files\collision\shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="constraint\BallAndSocketJoint.cpp">
+      <Filter>Source Files\constraint</Filter>
+    </ClCompile>
+    <ClCompile Include="constraint\ContactPoint.cpp">
+      <Filter>Source Files\constraint</Filter>
+    </ClCompile>
+    <ClCompile Include="constraint\FixedJoint.cpp">
+      <Filter>Source Files\constraint</Filter>
+    </ClCompile>
+    <ClCompile Include="constraint\HingeJoint.cpp">
+      <Filter>Source Files\constraint</Filter>
+    </ClCompile>
+    <ClCompile Include="constraint\Joint.cpp">
+      <Filter>Source Files\constraint</Filter>
+    </ClCompile>
+    <ClCompile Include="constraint\SliderJoint.cpp">
+      <Filter>Source Files\constraint</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\CollisionWorld.cpp">
+      <Filter>Source Files\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\ConstraintSolver.cpp">
+      <Filter>Source Files\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\ContactSolver.cpp">
+      <Filter>Source Files\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\DynamicsWorld.cpp">
+      <Filter>Source Files\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\Island.cpp">
+      <Filter>Source Files\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\Material.cpp">
+      <Filter>Source Files\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\OverlappingPair.cpp">
+      <Filter>Source Files\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\Profiler.cpp">
+      <Filter>Source Files\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\Timer.cpp">
+      <Filter>Source Files\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="memory\MemoryAllocator.cpp">
+      <Filter>Source Files\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="collision\narrowphase\EPA\EdgeEPA.cpp">
+      <Filter>Source Files\collision\narrowphase\EPA</Filter>
+    </ClCompile>
+    <ClCompile Include="collision\narrowphase\EPA\EPAAlgorithm.cpp">
+      <Filter>Source Files\collision\narrowphase\EPA</Filter>
+    </ClCompile>
+    <ClCompile Include="collision\narrowphase\EPA\TriangleEPA.cpp">
+      <Filter>Source Files\collision\narrowphase\EPA</Filter>
+    </ClCompile>
+    <ClCompile Include="collision\narrowphase\EPA\TrianglesStore.cpp">
+      <Filter>Source Files\collision\narrowphase\EPA</Filter>
+    </ClCompile>
+    <ClCompile Include="collision\narrowphase\GJK\GJKAlgorithm.cpp">
+      <Filter>Source Files\collision\narrowphase\GJK</Filter>
+    </ClCompile>
+    <ClCompile Include="collision\narrowphase\GJK\Simplex.cpp">
+      <Filter>Source Files\collision\narrowphase\GJK</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

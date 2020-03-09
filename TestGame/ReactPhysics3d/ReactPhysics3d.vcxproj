@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{6E0D5305-0901-476E-AF0E-1D490F9AAD34}</ProjectGuid>
+    <RootNamespace>ReactPhysics3d</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="body\Body.h" />
+    <ClInclude Include="body\CollisionBody.h" />
+    <ClInclude Include="body\RigidBody.h" />
+    <ClInclude Include="collision\broadphase\BroadPhaseAlgorithm.h" />
+    <ClInclude Include="collision\broadphase\DynamicAABBTree.h" />
+    <ClInclude Include="collision\CollisionDetection.h" />
+    <ClInclude Include="collision\CollisionShapeInfo.h" />
+    <ClInclude Include="collision\ContactManifold.h" />
+    <ClInclude Include="collision\ContactManifoldSet.h" />
+    <ClInclude Include="collision\narrowphase\CollisionDispatch.h" />
+    <ClInclude Include="collision\narrowphase\ConcaveVsConvexAlgorithm.h" />
+    <ClInclude Include="collision\narrowphase\DefaultCollisionDispatch.h" />
+    <ClInclude Include="collision\narrowphase\EPA\EdgeEPA.h" />
+    <ClInclude Include="collision\narrowphase\EPA\epaalgorithm.h" />
+    <ClInclude Include="collision\narrowphase\EPA\TriangleEPA.h" />
+    <ClInclude Include="collision\narrowphase\EPA\TrianglesStore.h" />
+    <ClInclude Include="collision\narrowphase\GJK\GJKAlgorithm.h" />
+    <ClInclude Include="collision\narrowphase\GJK\simplex.h" />
+    <ClInclude Include="collision\narrowphase\NarrowPhaseAlgorithm.h" />
+    <ClInclude Include="collision\narrowphase\SphereVsSphereAlgorithm.h" />
+    <ClInclude Include="collision\ProxyShape.h" />
+    <ClInclude Include="collision\RaycastInfo.h" />
+    <ClInclude Include="collision\shapes\AABB.h" />
+    <ClInclude Include="collision\shapes\BoxShape.h" />
+    <ClInclude Include="collision\shapes\CapsuleShape.h" />
+    <ClInclude Include="collision\shapes\CollisionShape.h" />
+    <ClInclude Include="collision\shapes\ConcaveMeshShape.h" />
+    <ClInclude Include="collision\shapes\ConcaveShape.h" />
+    <ClInclude Include="collision\shapes\ConeShape.h" />
+    <ClInclude Include="collision\shapes\ConvexMeshShape.h" />
+    <ClInclude Include="collision\shapes\ConvexShape.h" />
+    <ClInclude Include="collision\shapes\CylinderShape.h" />
+    <ClInclude Include="collision\shapes\HeightFieldShape.h" />
+    <ClInclude Include="collision\shapes\SphereShape.h" />
+    <ClInclude Include="collision\shapes\TriangleShape.h" />
+    <ClInclude Include="collision\TriangleMesh.h" />
+    <ClInclude Include="collision\TriangleVertexArray.h" />
+    <ClInclude Include="configuration.h" />
+    <ClInclude Include="constraint\BallAndSocketJoint.h" />
+    <ClInclude Include="constraint\ContactPoint.h" />
+    <ClInclude Include="constraint\FixedJoint.h" />
+    <ClInclude Include="constraint\HingeJoint.h" />
+    <ClInclude Include="constraint\Joint.h" />
+    <ClInclude Include="constraint\SliderJoint.h" />
+    <ClInclude Include="decimal.h" />
+    <ClInclude Include="engine\CollisionWorld.h" />
+    <ClInclude Include="engine\ConstraintSolver.h" />
+    <ClInclude Include="engine\ContactSolver.h" />
+    <ClInclude Include="engine\DynamicsWorld.h" />
+    <ClInclude Include="engine\EventListener.h" />
+    <ClInclude Include="engine\Impulse.h" />
+    <ClInclude Include="engine\Island.h" />
+    <ClInclude Include="engine\Material.h" />
+    <ClInclude Include="engine\OverlappingPair.h" />
+    <ClInclude Include="engine\Profiler.h" />
+    <ClInclude Include="engine\Timer.h" />
+    <ClInclude Include="mathematics\mathematics.h" />
+    <ClInclude Include="mathematics\mathematics_functions.h" />
+    <ClInclude Include="mathematics\Matrix2x2.h" />
+    <ClInclude Include="mathematics\Matrix3x3.h" />
+    <ClInclude Include="mathematics\Quaternion.h" />
+    <ClInclude Include="mathematics\Transform.h" />
+    <ClInclude Include="mathematics\Vector2.h" />
+    <ClInclude Include="mathematics\Vector3.h" />
+    <ClInclude Include="memory\MemoryAllocator.h" />
+    <ClInclude Include="memory\Stack.h" />
+    <ClInclude Include="reactphysics3d.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="body\Body.cpp" />
+    <ClCompile Include="body\CollisionBody.cpp" />
+    <ClCompile Include="body\RigidBody.cpp" />
+    <ClCompile Include="collision\broadphase\BroadPhaseAlgorithm.cpp" />
+    <ClCompile Include="collision\broadphase\DynamicAABBTree.cpp" />
+    <ClCompile Include="collision\CollisionDetection.cpp" />
+    <ClCompile Include="collision\ContactManifold.cpp" />
+    <ClCompile Include="collision\ContactManifoldSet.cpp" />
+    <ClCompile Include="collision\narrowphase\ConcaveVsConvexAlgorithm.cpp" />
+    <ClCompile Include="collision\narrowphase\DefaultCollisionDispatch.cpp" />
+    <ClCompile Include="collision\narrowphase\EPA\EdgeEPA.cpp" />
+    <ClCompile Include="collision\narrowphase\EPA\EPAAlgorithm.cpp" />
+    <ClCompile Include="collision\narrowphase\EPA\TriangleEPA.cpp" />
+    <ClCompile Include="collision\narrowphase\EPA\TrianglesStore.cpp" />
+    <ClCompile Include="collision\narrowphase\GJK\GJKAlgorithm.cpp" />
+    <ClCompile Include="collision\narrowphase\GJK\Simplex.cpp" />
+    <ClCompile Include="collision\narrowphase\NarrowPhaseAlgorithm.cpp" />
+    <ClCompile Include="collision\narrowphase\SphereVsSphereAlgorithm.cpp" />
+    <ClCompile Include="collision\ProxyShape.cpp" />
+    <ClCompile Include="collision\RaycastInfo.cpp" />
+    <ClCompile Include="collision\shapes\AABB.cpp" />
+    <ClCompile Include="collision\shapes\BoxShape.cpp" />
+    <ClCompile Include="collision\shapes\CapsuleShape.cpp" />
+    <ClCompile Include="collision\shapes\CollisionShape.cpp" />
+    <ClCompile Include="collision\shapes\ConcaveMeshShape.cpp" />
+    <ClCompile Include="collision\shapes\ConcaveShape.cpp" />
+    <ClCompile Include="collision\shapes\ConeShape.cpp" />
+    <ClCompile Include="collision\shapes\ConvexMeshShape.cpp" />
+    <ClCompile Include="collision\shapes\ConvexShape.cpp" />
+    <ClCompile Include="collision\shapes\CylinderShape.cpp" />
+    <ClCompile Include="collision\shapes\HeightFieldShape.cpp" />
+    <ClCompile Include="collision\shapes\SphereShape.cpp" />
+    <ClCompile Include="collision\shapes\TriangleShape.cpp" />
+    <ClCompile Include="collision\TriangleMesh.cpp" />
+    <ClCompile Include="collision\TriangleVertexArray.cpp" />
+    <ClCompile Include="constraint\BallAndSocketJoint.cpp" />
+    <ClCompile Include="constraint\ContactPoint.cpp" />
+    <ClCompile Include="constraint\FixedJoint.cpp" />
+    <ClCompile Include="constraint\HingeJoint.cpp" />
+    <ClCompile Include="constraint\Joint.cpp" />
+    <ClCompile Include="constraint\SliderJoint.cpp" />
+    <ClCompile Include="engine\CollisionWorld.cpp" />
+    <ClCompile Include="engine\ConstraintSolver.cpp" />
+    <ClCompile Include="engine\ContactSolver.cpp" />
+    <ClCompile Include="engine\DynamicsWorld.cpp" />
+    <ClCompile Include="engine\Island.cpp" />
+    <ClCompile Include="engine\Material.cpp" />
+    <ClCompile Include="engine\OverlappingPair.cpp" />
+    <ClCompile Include="engine\Profiler.cpp" />
+    <ClCompile Include="engine\Timer.cpp" />
+    <ClCompile Include="mathematics\mathematics_functions.cpp" />
+    <ClCompile Include="mathematics\Matrix2x2.cpp" />
+    <ClCompile Include="mathematics\Matrix3x3.cpp" />
+    <ClCompile Include="mathematics\Quaternion.cpp" />
+    <ClCompile Include="mathematics\Transform.cpp" />
+    <ClCompile Include="mathematics\Vector2.cpp" />
+    <ClCompile Include="mathematics\Vector3.cpp" />
+    <ClCompile Include="memory\MemoryAllocator.cpp" />
+    <ClCompile Include="reactphysics3d.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
